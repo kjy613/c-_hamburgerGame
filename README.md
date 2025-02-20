@@ -7,3 +7,5 @@
 - 사용 언어: C#
 - 개발 환경: Visual Studio
 - DB: MySQL
+
+- 용량 문제로 전체 파일 업로드 실패
