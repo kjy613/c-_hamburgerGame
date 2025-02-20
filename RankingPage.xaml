@@ -1,0 +1,19 @@
+﻿<Window x:Class="test1.RankingPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="랭킹" Height="450" Width="800">
+    <Grid Height="434" VerticalAlignment="Bottom">
+        <Grid.Background>
+            <ImageBrush ImageSource="Ranking_image/ranking2.png"/>
+        </Grid.Background>
+        <ScrollViewer Margin="0,61,0,0">
+            <TextBlock x:Name="RankingTextBlock" TextWrapping="Wrap" FontFamily="Arial Black" FontSize="36" TextAlignment="Center" Height="373" />
+        </ScrollViewer>
+        <TextBlock HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="36"><Run Text="RANK"/><Run Language="ko-kr" Text="ING"/></TextBlock>
+        <Label Content="" Height="220" Width="180" HorizontalContentAlignment="Center" HorizontalAlignment="Right" Margin="0,156,0,58">
+            <Label.Background>
+                <ImageBrush ImageSource=" Ranking_image/fries.png"/>
+            </Label.Background>
+        </Label>
+    </Grid>
+</Window>
